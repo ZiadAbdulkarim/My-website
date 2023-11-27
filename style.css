@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'El Messiri', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+header{
+    background-color:azure;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.logo{
+    color: #0066cc;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+
+.nav a{
+    font-weight:normal;
+    font-size: 1.1em;
+    padding:50px;
+}
+
+.nav a:hover{
+    color: rgb(81, 127, 253);
+    font: 1.6em sans-serif;
+    transition: 0.4s ease;
+}
+
+section{
+    padding: 230px 50px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100hv;
+    display: flex;
+    background: url(Images/24600850_10.jpg); no-repeat;
+    background-size: cover;
+    background-position:  center;
+    background-attachment: fixed;
+}
+
+.main h4{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.main h1{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.main h2{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 0.8em;
+    margin-bottom: 30px;
+}
+
+.social_icons a{
+    padding-right: 70px;
+    font-size: 3em;
+    color: #ffffff;
+}
